@@ -10,35 +10,57 @@
 <body>
 
   <nav>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Store</a></li>
-      <li><a href="#">Gmail</a></li>
-      <li><a href="#">Images</a></li>
-      <li><a href="#">Square</a></li>
-      <li><a href="#"><button type="submit" name="sign_in">Sign In</button></a></li>
-    </ul>
+    <div class="left">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><a href="#"><img src="images/Unknown.png" class="square"></a></li>
+        <li><a href="#"><button type="submit" name="sign_in">Sign In</button></a></li>
+      </ul>
+    </div>
   </nav>
 
-  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+  <main>
+    <div class="logo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
 
-  <form action="index.html" method="post">
-    <input class="search" type="text" name="" value="">
-    <input class="submit" type="submit" name="search" value="Google Search">
-    <input class="submit" type="submit" name="lucky" value="I'm Feeling Lucky">
-  </form>
+    <div id="search-box">
+      <img id="search-icon" src="images/mag-glass.png" alt="">
+      <input id="search-text" type="text" name="" value="">
+    </div>
 
-  <p>Make sure you learn coding so you can have a job in the future!</p>
+    <div class="buttons">
+      <input class="submit" type="submit" name="search" value="Google Search">
+      <input class="submit" type="submit" name="lucky" value="I'm Feeling Lucky">
+    </div>
+
+    <div class="quote">
+      <p>Make sure to learn Web Development!</p>
+    </div>
+  </main>
 
   <footer>
-    <ul>
-      <li><a href="#">Advertising</a></li>
-      <li><a href="#">Business</a></li>
-      <li><a href="#">How Search Works</a></li>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Service</a></li>
-    </ul>
+    <div class="left">
+      <ul>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">How Search Works</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 </html>
