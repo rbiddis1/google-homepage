@@ -110,7 +110,7 @@ button {
 }
 
 #search-box {
-  max-width: 582px;
+  width: 582px;
   display: flex;
   margin: 0 auto;
   height: 44px;
@@ -127,12 +127,12 @@ button {
 }
 
 #search-text {
-  display: flex;
   position: relative;
-  left: 2.5%;
+  left: 3%;
   border: none;
   margin: auto 0;
   line-height: 34px;
-  flex: 100%;
   font-size: 16px;
+  outline: none;
+  width: 520px;
 }
